@@ -141,6 +141,7 @@ int main() // começo do menu
 		printf("\t1 - Cadastrar nomes\n"); //opção 1
 		printf("\t2 - Consultar nomes\n"); //opção 2
 		printf("\t3 - Retirar nomes\n\n"); //opção 3
+		printf("\t3 - Sair do sistema\n\n"); //opção 4
 		printf("Opção:");
 		
 		scanf("%d" , &opcao);// Armazenamento e escolha do usuário
