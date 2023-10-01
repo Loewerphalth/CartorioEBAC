@@ -159,7 +159,12 @@ int main() // começo do menu
 			
 			case 3: //opção 3
 			retirar();
-			break;	
+			break;
+			
+			case 4: //opção 4
+			printf("Obrigado, até logo!");
+			return 0;
+			break;
 			
 			default: // Quando não há opção valida
 			printf("Esta opção não está disponivel. Selecione algumas das 3 acima !\n"); // Resposta para quando a opção não é valida
